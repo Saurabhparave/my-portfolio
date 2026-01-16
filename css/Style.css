@@ -2138,7 +2138,13 @@ ol {
   }
 
   .contact-area .contact-form h1 {
-    font-size: 34px;
+    font-size: 30px;
+    padding-right: 40px;
+  }
+
+  .contact-area .contact-form img {
+    right: 0;
+    width: 60px;
   }
 
   .contact-area .contact-form .shadow-box {
