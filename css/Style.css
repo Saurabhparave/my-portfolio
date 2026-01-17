@@ -552,7 +552,8 @@ ol {
   flex: none;
 }
 
-.about-area .about-me-box .img-box img {
+.about-area .about-me-box .img-box img,
+.about-area .about-me-box .img-box video {
   display: block;
   height: 100%;
   object-fit: cover;
@@ -647,9 +648,13 @@ ol {
   border-radius: 30px;
 }
 
-.about-area .about-image-box img {
+.about-area .about-image-box img,
+.about-area .about-image-box video {
   display: block;
   border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-area .about-details {
@@ -974,10 +979,14 @@ ol {
   margin-bottom: 40px;
 }
 
-.credential-area .credential-sidebar .img-box img {
+.credential-area .credential-sidebar .img-box img,
+.credential-area .credential-sidebar .img-box video {
   display: block;
   margin: auto;
   border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .credential-area .credential-sidebar p {
